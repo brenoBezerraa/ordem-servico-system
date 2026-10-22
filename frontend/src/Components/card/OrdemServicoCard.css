@@ -1,0 +1,93 @@
+* {
+  color: #111;
+  box-sizing: border-box;
+}
+
+/* CARD */
+.Card {
+  background-color: #f4f8ff;
+  width: 100%;
+  max-width: 300px;
+  min-height: 160px;
+  max-height: 165px;
+  border-radius: 10px;
+  box-shadow: 0 8px 11px rgba(0, 0, 0, 0.25);
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.Card:hover {
+  transform: translateY(-4px);
+}
+
+/* HEADER */
+.name_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name_container h2 {
+  font-weight: 600;
+  font-size: 18px;
+   font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+/* STATUS */
+.Pendente {
+   font-weight: 500;
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 4px 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 187, 0, 0.493);
+  color: rgb(255, 145, 0);
+}
+
+.Concluído {
+  font-weight: 500;
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 4px 10px;
+  border-radius: 10px;
+  background-color: #00b1186b;
+  color: #00b118;
+}
+
+/* DIVISOR */
+.divider {
+  width: 100%;
+  border: none;
+  border-top: 2px solid #757575;
+  margin: 6px 0;
+}
+
+/* CONTEÚDO */
+.servicos_title,
+.os_title {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.Servicos,
+.OS {
+  display: flex;
+  gap: 8px;
+}
+
+.os_container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.os_container p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
